@@ -1,0 +1,121 @@
+
+/* reset css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* reset css*/
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(248, 248, 248);
+    
+    
+}
+#top{
+    height: 110px;
+    background-color: rgb(57, 21, 21);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    
+    
+
+    
+}
+#top h1{
+    font-size: 50px;
+    align-items: center;
+    text-shadow:
+    -1px 1px 10px black,
+     1px -1px 10px black,
+    -1px 1px 10px black,
+     1px 1px 10px black;
+    color: rgb(255, 255, 255)
+    
+    
+
+}
+#content{
+    background-color: #000000;
+    
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #B9D8C2;
+    background: linear-gradient(#591e1e 30%, #e06e6e 55%, #a02422 80%);
+}
+.card {
+     width: 300px;
+     color: #ffffff;
+     background-color: #28262C;
+     height: 400px;
+     border: 1px solid black;
+     padding: 5px;
+     margin: 30px;
+     border-radius: 10px;
+     box-shadow: 1px 1px 20px #d054e0;
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+     transition: transform 0.3s ease-in-out;
+     
+
+}
+.card figure {
+    width: 290px;
+    height: 270px;
+    background-color: #F7F4F3;
+    border-radius: 10px;
+    overflow: hidden
+}
+.card figure img{
+    width: 100%
+}
+.card h2 {
+ height: 50px;
+}
+
+.card p{
+ 
+}
+
+.card-content {
+    padding: 10px;
+  }
+  
+  .card-content h3 {
+    margin-top: 0;
+  }
+  
+  .card-content p {
+    margin-bottom: 0;
+  }
+
+  .card:hover {
+    transform: scale(1.10);
+  }
+
+  
+
+
+
+#footer{
+    background-color: #591e1e;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 
+    -1px 1px 10px black,
+    1px -1px 10px black,
+   -1px 1px 10px black,
+    1px 1px 10px black;
+    font-size: 40px;
+    background
+    
+}
+
+
